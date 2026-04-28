@@ -34,9 +34,16 @@ La solución está dividida en cuatro secciones: conocimientos técnicos, lógic
 
 Para ejecutar este proyecto es necesario tener instalado:
 
-PHP 7.4 o superior
+PHP 7.4 o superior 
 MySQL
 Un navegador web
+
+También puede utilizar entornos como:
+
+XAMPP
+Laragon
+
+Estos ya incluyen PHP y MySQL configurados.
 
 Opcional:
 
