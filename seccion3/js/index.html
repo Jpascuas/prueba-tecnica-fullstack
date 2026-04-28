@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio DOM</title>
+  <style>
+    #resultado {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Convertir texto a mayúsculas</h3>
+
+  <input type="text" id="nombre" placeholder="Escribe tu nombre">
+  <button id="btnGuardar">Guardar</button>
+
+  <div id="resultado"></div>
+
+  <!-- jQuery para eventos -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+    $('#btnGuardar').on('click', function() {
+
+        let nombre = document.getElementById('nombre').value.trim();
+
+        if (nombre === "") {
+        document.getElementById('resultado').innerText = "Por favor ingresa un valor";
+        return;
+        }
+
+        let resultado = nombre.toUpperCase();
+
+        document.getElementById('resultado').innerText = resultado;
+    });
+    </script>
+
+</body>
+</html>
