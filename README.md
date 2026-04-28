@@ -30,6 +30,20 @@ La solución está dividida en cuatro secciones: conocimientos técnicos, lógic
 
 ---
 
+### Requisitos
+
+Para ejecutar este proyecto es necesario tener instalado:
+
+PHP 7.4 o superior
+MySQL
+Un navegador web
+
+Opcional:
+
+Herramienta de gestión de base de datos (HeidiSQL, phpMyAdmin, MySQL Workbench)
+
+---
+
 ## Estructura del proyecto
 
 ```
